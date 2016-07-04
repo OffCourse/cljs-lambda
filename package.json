@@ -5,14 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeehaa123/cljs-lambda-skeleton"
+    "url": "git://github.com/offcourse/cljs-lambda"
   },
   "author": "yeehaa123",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yeehaa123/cljs-lambda-skeleton/issues"
+    "url": "https://github.com/offcourse/cljs-lambda/issues"
   },
-  "homepage": "https://github.com/yeehaa123/cljs-lambda-skeleton",
+  "homepage": "https://github.com/offcourse/cljs-lambda",
   "dependencies": {
     "node-lambda": "^0.8.6"
   },
