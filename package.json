@@ -1,6 +1,6 @@
 {
   "name": "cljs-lambda",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Skeleton Template to write lambda function with clojurescript",
   "main": "index.js",
   "repository": {
@@ -17,9 +17,8 @@
     "node-lambda": "^0.8.6"
   },
   "scripts": {
-    "setup": "node-lambda setup",
-    "run": "node-lambda run",
-    "deploy": "node-lambda deploy -e development -f development.env",
-    "deploy-prod": "node-lambda deploy -e production -f production.env"
+      "start": "./node_modules/node-lambda/bin/node-lambda run",
+      "deploy": "./node_modules/node-lambda/bin/node-lambda deploy -e development -f development.env",
+      "deploy-prod": "./node_modules/node-lambda/bin/node-lambda deploy -e production -f production.env"
   }
 }
