@@ -1,0 +1,25 @@
+{
+  "name": "cljs-lambda",
+  "version": "0.0.1",
+  "description": "A Skeleton Template to write lambda function with clojurescript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yeehaa123/cljs-lambda-skeleton"
+  },
+  "author": "yeehaa123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeehaa123/cljs-lambda-skeleton/issues"
+  },
+  "homepage": "https://github.com/yeehaa123/cljs-lambda-skeleton",
+  "dependencies": {
+    "node-lambda": "^0.8.6"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy -e development -f development.env",
+    "deploy-prod": "node-lambda deploy -e production -f production.env"
+  }
+}
