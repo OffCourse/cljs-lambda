@@ -6,7 +6,10 @@ This skeleton does not provide any clojure abstractions around lambda, but - usi
 
 ## Instructions
 
-Before you start, make sure to run 'npm install'.
+Before you start, make sure to run 'npm setup.
+
+- AWS and Lambda configuration go in the .env file
+- Project specific environment variables go into the deploy.env (for development) and production.env (self-explanatory...)
 
 'boot build' compiles the clojurescript code, which can be tested by running 'npm start. When you want to run your function on AWS, run 'npm run deploy'. For convencience, I provide a 'npm run deploy-prod' task as well.
 
